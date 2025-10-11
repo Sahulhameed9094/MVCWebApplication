@@ -11,6 +11,7 @@ pool:
 
 steps:
 - task: VSBuild@1
+  displayName: 'Build SQL Project'
   inputs:
     solution: 'MVCWebAppSQL/MVCWebAppSQL.sqlproj'
     vsVersion: '17.0'
